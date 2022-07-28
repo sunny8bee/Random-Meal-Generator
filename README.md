@@ -3,7 +3,8 @@
 
 
 #예상구현 설계도
-[끼니설계도](https://user-images.githubusercontent.com/102340541/181495686-b4b20dcf-8707-4b99-a058-531decc9a015.png)
+
+![끼니설계도](https://user-images.githubusercontent.com/102340541/181496603-a278d6ce-cace-49a4-b4f3-ac4faa7e9c43.png)
 
 
 #1 검색페이지 틀잡아주기
