@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'EF_MACHO';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/EF_MACHO.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ImcreSoojin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ * {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #1f2d3d;
+    
+ }
+
+ html {
+     font-size: 16px;
+     /* line-height: 1.5; */
+     color: #1f2d3d;
+     margin:0px 5%;
+    
+ }
+ body {
+    font-family: 'EF_MACHO';
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+     height: 100vh;
+     margin: 0 auto;
+     background-color: #daf2f5;
+ }
+header{
+    border: 10px double;
+    border-color: cornflowerblue;
+    background-color: azure;
+    border-radius: 20px;
+    overflow: auto;
+}
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.summary {
+    display: block;
+    text-align: center;
+    padding: 20px 100px;
+    background-color:lightblue;
+}
+
+.searchAndSumit {
+    display: block;
+    text-align: center;
+    background-color: lightblue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+}
+
+.popularSearchWord {
+    font-family: 'ImcreSoojin';
+    text-align: center;
+    background-color:#daf2f5;
+    padding: 10px;
+   
+}
+
+#search {
+    width: 300px;
+    height: 30px;
+}
+#submit{
+    font-family: 'EF_MACHO';
+    width: 100px; /*80px로 하면 버튼내의 텍스트가 밀려서 100px로 수정함. */
+    height: 30px;
+}
+
+#random{
+    font-family: 'EF_MACHO';
+    margin-top: 20px;
+    width: 405px;
+    height: 30px;
+    /* background-color:floralwhite; */
+}
+
+#resultHeading{
+    font-family: 'ImcreSoojin';
+}
+
+#mealsEl{
+    font-family: 'ImcreSoojin';
+}
+
+#single-mealEl{
+    font-family: 'ImcreSoojin';
+}
+footer {
+    display: block;
+    text-align: center;
+
+}
+
+
+/*---search result---*/
+
+.meal-info {
+    float: left;
+    width: 33%;
+    text-align: justify;
+    /* vertical-align: middle; */
+    padding-left: 10px;
+}
+
+
+ img{
+    width: 100%;
+    height: 100%;
+    border-radius: 75px;
+}
+
+h3 {
+    -webkit-text-stroke: 1px #1f2d3d;
+    color: #daf2f5;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/*---recipe---*/
+ul {
+    list-style: none;
+    text-align:left;
+    border: 6px solid #daf2f5;
+    padding: 20px;
+    margin:20px;
+}
+
+.recipe-description {
+    border: 6px solid #daf2f5;
+    padding: 20px;
+    margin: 20px;
+}
+
+.recipeImg {
+    width: 70%;
+    height: 70%;
+    border-radius: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
