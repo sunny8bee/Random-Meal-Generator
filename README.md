@@ -1,5 +1,6 @@
 # Random-Meal-Generator
 [ESG] Alice project!
+https://github.com/JUMTBOX/esg-recipe
 
 ⬇️ '먹을끼니🤔' 바로가기 ⬇️
 
